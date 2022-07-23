@@ -54,7 +54,7 @@ const Contact = () => {
               className=" "
             >
               <input
-                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2  text-[1.5rem] mr-36 ml-[-5rem] w-[90%]"
+                className=" flex justify-center items-center border-2 border-gray-400  p-2  text-[1.5rem] mr-[27rem] ml-[-5rem] w-[90%]"
                 type="username"
                 name="name"
                 id="name"
@@ -62,7 +62,7 @@ const Contact = () => {
                 autocomplete="off" />
       
               <input
-                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-5rem]  w-[90%]"
+                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[27rem] ml-[-5rem]  w-[90%]"
                 type="username"
                 name="email"
                 id="email"
@@ -70,7 +70,7 @@ const Contact = () => {
                 autocomplete="off" />
             
               <input
-                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-5rem]  w-[90%]"
+                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[27rem] ml-[-5rem]  w-[90%]"
                 type="number"
                 name="number"
                 id="number"
@@ -78,7 +78,7 @@ const Contact = () => {
                 autocomplete="off" 
               />
               <textarea
-               className="flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-5rem]  w-[90%]"
+               className="flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[27rem] ml-[-5rem]  w-[90%]"
                 name="message"
                 id="msg"
                 placeholder="Enter message"

@@ -43,7 +43,7 @@ const About = () => {
             to="contact"
             smooth
             duration={500}
-            className=" w-fit px-6 py-3 my-2 flex items-center rounded-md bg-blue-800 cursor-pointer hover:scale-90 hover:bg-gradient-to-br from-yellow-600 to-green-700 first-letter: text-white"
+            className=" w-full px-6 py-3 my-2 flex items-center rounded-md bg-blue-800 cursor-pointer hover:scale-90 hover:bg-gradient-to-br from-yellow-600 to-green-700 first-letter: text-white"
             
           >
             download cv

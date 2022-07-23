@@ -23,14 +23,14 @@ const NavBar = () => {
 
   ];
   return ( 
-    <div className=' flex justify-between items-center w-screen px-4  text-white bg-black h-24   '>
+    <div className=' flex justify-between items-center w-full px-4  text-white bg-black h-24 fixed  '>
       <div >
         <h1 className=' hidden md:flex md:ml-[50px] text-5xl font-signature ml-2 capitalize'>Gautam Kumar</h1>
       </div>
         
        <ul className='hidden md:flex ' >
         {links.map(({id,link}) => (
- <li key={id} className='px-4  cursor-pointer capitalize font-medium hover:scale-105 text-lg duration-200 hover:bg-gradient-to-br from-green-800 to-red-800' > 
+ <li key={id} className='px-4 min-h-full  cursor-pointer capitalize font-medium hover:scale-105 text-lg duration-200 hover:bg-gradient-to-br from-green-800 to-red-800' > 
  <Link to={link} smooth duration={400}>
   {link}
  </Link>
