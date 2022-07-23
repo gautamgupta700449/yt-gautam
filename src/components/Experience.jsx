@@ -47,12 +47,12 @@ const Experience = () => {
     }
   ]
   return (
-    <div name="experience" className=' h-screen w-full bg-gradient-to-b from-gray-700 to-white'>
+    <div name="experience" className=' h-screen w-full bg-transparent'>
         <div className='max-w-screen-lg mx-auto flex flex-col justify-center h-full p-4
-         text-white '>
+         text-black '>
           
 <div>
-<p className=' text-4xl font-bold border-b-4 border-yellow-600 p-2 inline'>Experience</p>
+<p className=' text-4xl font-bold border-b-4 border-yellow-600 p-2 '>Experience</p>
 <p className=' py-6 text-2xl'>There are the technologies. I've worked with</p>
 </div>
   <div className=' w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>

@@ -9,18 +9,18 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className=" h-screen w-full bg-gradient-to-b from-gray-800 to-white"
+      className=" h-screen w-full bg-transparent"
     >
       <div className=" h-full w-full mx-auto py-4 md:flex-row">
-      <h1 className=" py-8 border-b-2  font-bold text-4xl text-white text-center">
+      <h1 className=" py-8 border-b-2  font-bold text-4xl text-black text-center">
         Contact <span className=" text-yellow-800">Me</span>
       </h1>
         <div className=" flex justify-center items-center flex-wrap  h-full">
           <div className=" px-24 py-8">
-            <h1 className=" font-bold text-4xl  inline border-b-4 border-gray-800 text-white ">
+            <h1 className=" font-bold text-4xl  inline border-b-4 border-gray-800 text-black  ">
               Contact <span className="text-yellow-700">Me</span>
             </h1>
-            <div className=" py-4 pb-16  font-bold text-white text-[20px]">
+            <div className=" py-4 pb-16  font-bold text-black text-[20px]">
               <h3 className="flex items-center pb-4">
                 <span className="text-yellow-800 pr-4">
                   <IoMdMail />

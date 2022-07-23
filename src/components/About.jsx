@@ -7,13 +7,13 @@ const About = () => {
   return (
     <div
       name="about"
-      className="  h-full w-full bg-gradient-to-b from-gray-700 to-white "
+      className="  h-full w-full bg-transparent text-black "
     >
-      <h1 className=" text-center border-b-2 font-bold text-3xl text-white py-4">
+      <h1 className=" text-center border-b-2 font-bold text-3xl text-black py-4">
         About <span className="text-yellow-700 border-orange-500">Me</span>
       </h1>
       <div className=" flex justify-center items-center flex-wrap p-8">
-        <p className=" text-white text-2xl tracking-wider font-serif">
+        <p className=" text-black text-2xl tracking-wider font-serif">
           I enjoy being challenged and engaging with projects that require me to
           work outside my comfort and knowledge set, as continuing to learn new
           languages and development techniques are important to me.

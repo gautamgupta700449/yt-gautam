@@ -7,15 +7,15 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b  from-gray-700 to-white"
+      className="h-screen w-full bg-transparent"
     >
-      <div className="max-w-screen-lg mx-auto  flex flex-col items-center justify-between h-full px-4 text-white md:flex-row">
+      <div className="max-w-screen-lg mx-auto  flex flex-col items-center justify-between h-full px-4 text-black md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl pt-16 font-bold">
             I'm a Full Stark Developer
           </h2>
 
-          <p className=" text-white text-[1.2rem] font-semibold font-serif py-8 max-w-md">
+          <p className=" text-black text-[1.2rem] font-semibold font-serif py-8 max-w-md">
           Hi, My name is Gautam kumar gupta. I'm a web developer. who works on various modern, reactive and responsive user interface while also communicating with backend services.
           </p>
           <div>

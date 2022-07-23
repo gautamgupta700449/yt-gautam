@@ -5,7 +5,7 @@ import {FaGraduationCap} from 'react-icons/fa';
 
 const Education = () => {
   return (
-<div className=' h-full w-full bg-gradient-to-b from-slate-800 to-white'>
+<div className=' h-full w-full'>
 <section className= " education" id="education">
 <h1 className=" text-center font-bold text-yellow-700 text-3xl py-8 border-b-2">My<span className="text-black">Education</span></h1>
 <div className="box-container">
